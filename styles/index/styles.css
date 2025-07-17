@@ -1,0 +1,43 @@
+@font-face{
+    font-family: 'sweet_vusstain';
+    src: url(./SweetVusstain.ttf) format('truetype')
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+    background-color: #fff4f6 ;
+    font-family: 'sweet_vusstain';
+}
+
+.bloco_principal {
+    place-items: center;
+}
+
+img {
+    margin: 0px;
+    padding-top: 30%;
+    height: 300px;
+    width: auto;
+}
+
+h1 {
+    margin: 0px;
+    padding-top: 3%;
+    font-size: 60px;
+    color: #281704;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    margin: 0px;
+    margin-top: 7%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #281704;
+    padding: 22px;
+    background-color: #f797a5 ;
+    border-radius: 8px;
+}

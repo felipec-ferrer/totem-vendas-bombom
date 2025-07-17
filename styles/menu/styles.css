@@ -1,0 +1,32 @@
+body,
+h1,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px; /* opcional */
+}
+
+.logo img {
+  width: 250px;
+  height: auto;
+}
+
+.catalogo {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 30px;
+  justify-items: center;
+}
+
+.bombom {
+  width: 300px;
+  height: auto;
+}

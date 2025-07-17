@@ -1,0 +1,8 @@
+# arquivos temporários / cache
+utils/__pycache__
+
+# arquivos de pedidos
+utils/pedidos/*.json
+
+# arquivo de estoque
+utils/estoque.json

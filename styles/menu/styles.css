@@ -5,17 +5,27 @@ p {
   padding: 0px;
 }
 
+body{
+  background-color: #fff4f6 ;
+}
+
 .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  place-items: center;
   width: 100%;
-  margin-top: 20px; /* opcional */
 }
 
 .logo img {
-  width: 250px;
+  width: 230px;
   height: auto;
+  margin-top: 10px; 
+}
+
+.logo p {
+  font-size: 28px;
+  margin-top: 5px;
+  color: #281704;
+  font-family: 'Pacifico', cursive;
 }
 
 .catalogo {
@@ -27,6 +37,66 @@ p {
 }
 
 .bombom {
-  width: 300px;
+  width: 270px;
   height: auto;
+  align-self: center;
+  border: 3px solid;
+  border-color: #553c21;
+  border-radius: 20px;
+}
+
+h1 {
+  margin: 3px;
+  font-family: 'Baloo 2', sans-serif;
+  font-size: 25px;
+}
+
+.botaoCarrinho, .botaoSemEstoque{
+  all: unset;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.botaoCarrinho{
+  background-color: #e85c79;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.botaoSemEstoque {
+  background-color: gray;
+  color: whitesmoke;
+}
+
+.finalizar {
+  text-align: right;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  margin: 20px;
+  padding: 10px;
+  background-color: orange;
+  font-size: 30px;
+  border-radius: 8px;
+  color: #281704;
+}
+
+#totalBombom {
+  position: absolute;
+  bottom: 50px;     
+  right: 15px;     
+  background: red;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
 }

@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Menu de sabores</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Pacifico&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles/menu/styles.css">
   <script src="/scripts/menu/script.js" defer></script>
 </head>
@@ -15,38 +16,40 @@
 <div class="grid">
   <div class="catalogo">
     <div id="divMorango">
-      <img class="bombom" src="../assets/img/bombom.png" alt="Bombom sabor morango">
+      <img class="bombom" src="../assets/img/bombom_morango.png" alt="Bombom sabor morango">
       <h1>Morango</h1>
       <!-- botao para colocar no carrinho pelo javascript -->
     </div>
     <div id="divUva">
-      <img class="bombom" src="../assets/img/bombom.png" alt="Bombom sabor uva">
+      <img class="bombom" src="../assets/img/bombom_uva.png" alt="Bombom sabor uva">
       <h1>Uva</h1>
       <!-- botao para colocar no carrinho pelo javascript -->
     </div>
     <div id="divBrigadeiro">
-      <img class="bombom" src="../assets/img/bombom.png" alt="Bombom sabor brigadeiro">
+      <img class="bombom" src="../assets/img/bombom_brigadeiro.png" alt="Bombom sabor brigadeiro">
       <h1>Brigadeiro</h1>
       <!-- botao para colocar no carrinho pelo javascript -->
     </div>
     <div id="divCasadinho">
-      <img class="bombom" src="../assets/img/bombom.png" alt="Bombom sabor casadinho">
+      <img class="bombom" src="../assets/img/bombom_casadinho.png" alt="Bombom sabor casadinho">
       <h1>Casadinho</h1>
       <!-- botao para colocar no carrinho pelo javascript -->
     </div>
     <div id="divMaracuja">
-      <img class="bombom" src="../assets/img/bombom.png" alt="Bombom sabor maracuja">
+      <img class="bombom" src="../assets/img/bombom_maracuja.png" alt="Bombom sabor maracuja">
       <h1>Maracujá</h1>
       <!-- botao para colocar no carrinho pelo javascript -->
     </div>
     <div id="divTrufa">
-      <img class="bombom" src="../assets/img/bombom.png" alt="Bombom sabor trufa">
+      <img class="bombom" src="../assets/img/bombom_trufa.png" alt="Bombom sabor trufa">
       <h1>Trufa</h1>
       <!-- botao para colocar no carrinho pelo javascript -->
     </div>
   </div>
-  <p id="totalBombom">0</p>
-  <a href="./checkout.html" onclick="salvarJSON(bombom, numeroBombom)">Finalizar</a>
+  <div class="finalizar">
+    <a href="./checkout.html" onclick="salvarJSON(bombom, numeroBombom)">Finalizar</a>
+    <p id="totalBombom">0</p> 
+  </div>
 </div>
 
 </html>

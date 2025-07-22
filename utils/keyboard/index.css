@@ -10,7 +10,7 @@
  *
  */
 .hg-theme-default {
-  background-color: #ececec;
+  background-color: #fff4f6;
   border-radius: 5px;
   box-sizing: border-box;
   font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue,
@@ -21,7 +21,7 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  width: 100%;
+  width: 90%;
 }
 .hg-theme-default .hg-button span,
 .hg-theme-default .hg-button span svg {

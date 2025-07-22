@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Enviar pedido</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Pacifico&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles/submitName/styles.css">
   <script src="/scripts/submitName/script.js" defer></script>
   <link rel="stylesheet" href="/utils/keyboard/index.css">
@@ -11,12 +12,16 @@
 </head>
 
 <body>
-  <img src="/assets/img/logo.png" alt="Logotipo da marca">
+  <div class="logo">
+    <img src="/assets/img/logo.svg" alt="Logotipo da marca">
+  </div>
   <div>
     <h1>Insira seu nome para concluir</h1>
     <form id="formCliente">
       <input type="text" id="nome" placeholder="Seu nome" required>
-      <div class="simple-keyboard"></div>
+      <div class="teclado">
+        <div class="simple-keyboard"></div>
+      </div>
       <button type="submit">Finalizar pedido</button>
     </form>
   </div>

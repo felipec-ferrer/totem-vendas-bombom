@@ -1,0 +1,46 @@
+body {
+    all: unset;
+    background-color: #fff4f6;
+}
+
+.logo, h1, form {
+    text-align: center;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.logo img {
+    width: 400px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+#nome {
+    border-radius: 8px;
+    background-color: white;
+    font-size: 30px;
+    line-height: 30px;
+    border-color: #553c21;
+    margin-bottom: 20px;
+}
+
+.teclado {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#formCliente button {
+    font-size: 40px;
+    background-color: orange;
+    border-color: #fff4f6;
+    padding: 10px;
+    border-radius: 10px;
+    color: #553c21;
+    margin-top: 50px;
+    font-family: 'Baloo 2', sans-serif;
+}

@@ -35,7 +35,7 @@ if (itensMostrados === 0) {
   )}</p> `;
   divValorTotal.appendChild(textoValorTotal);
   textoFinalizar.innerHTML =
-    '<a href="/pages/submitName.html">Concluir pedido</a>';
+    '<a class="concluirPedido" href="/pages/submitName.html">Concluir pedido</a>';
   divFinalizar.appendChild(textoFinalizar);
 }
 

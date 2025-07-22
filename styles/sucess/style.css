@@ -1,24 +1,29 @@
 body {
-    height: 98vh;
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+    height: 100vh;
     background-color: #fff4f6 ;
     background-image: url(/assets/img/moldura.svg);
-    background-size: 2350px;         
+    background-size: 1800px;         
     background-position: center;    
     background-repeat: no-repeat;
+    overflow-y: hidden;
 }
 
 div {
   display: flex;                
-    justify-content: center;     
-    align-items: center;         
-    flex-direction: column;     
-    text-align: center;          
+  justify-content: center;     
+  align-items: center;         
+  flex-direction: column;     
+  text-align: center;          
 }
 
 img {
-    padding-top: 170px;
-    width: 600px;
-    height: auto;
+    padding-top: 150px;
+    height: 300px;
+    width: auto;
+    
 }
 
 h1 {
@@ -32,7 +37,7 @@ h1 {
 a {
   text-decoration: none;
   font-family: 'Baloo 2', sans-serif;
-  font-size: 60px;
+  font-size: 50px;
   background-color: orange;
   padding: 20px;
   font-weight: bold;

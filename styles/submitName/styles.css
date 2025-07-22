@@ -1,5 +1,4 @@
 body {
-    all: unset;
     background-color: #fff4f6;
 }
 
@@ -9,7 +8,7 @@ body {
 }
 
 .logo img {
-    width: 400px;
+    width: 290px;
     height: auto;
     margin-top: 110px;
     margin-bottom: 30px;

@@ -5,9 +5,10 @@ body {
     height: 100vh;
     background-color: #fff4f6 ;
     background-image: url(/assets/img/moldura.svg);
-    background-size: 2350px;         
+    background-size: 1800px;         
     background-position: center;    
     background-repeat: no-repeat;
+    overflow-y: hidden;
 }
 
 .bloco_principal {
@@ -15,10 +16,12 @@ body {
 }
 
 img {
+    display: block;
     margin: 0px;
     padding-top: 150px;
     height: 300px;
     width: auto;
+    text-align: center;
 }
 
 h1 {

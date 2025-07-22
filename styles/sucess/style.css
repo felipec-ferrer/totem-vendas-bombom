@@ -1,0 +1,41 @@
+body {
+    height: 98vh;
+    background-color: #fff4f6 ;
+    background-image: url(/assets/img/moldura.svg);
+    background-size: 2350px;         
+    background-position: center;    
+    background-repeat: no-repeat;
+}
+
+div {
+  display: flex;                
+    justify-content: center;     
+    align-items: center;         
+    flex-direction: column;     
+    text-align: center;          
+}
+
+img {
+    padding-top: 170px;
+    width: 600px;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 90px;
+    font-weight: lighter;
+    color: #553c21;
+    padding-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Baloo 2', sans-serif;
+  font-size: 60px;
+  background-color: orange;
+  padding: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  color: #553c21;
+}

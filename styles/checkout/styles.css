@@ -1,17 +1,21 @@
 body{
     all: unset;
-    background-color: #fff4f6
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+    height: 100vh;
+    background-color: #fff4f6 ;
 }
 
 .header {
-    margin-top: 20px;
+    margin-top: 60px;
     display: flex;
     align-items: flex-start;
     position: relative;
 }
 
 .logo {
-    width: 300px;
+    width: 450px;
     height: auto;
     position: absolute;
     top: 50%;
@@ -23,8 +27,8 @@ body{
     width: 80px;
     height: auto;
     margin: 40px;
-    margin-left: 50px;
-    padding: 10px;
+    margin-left: 70px;
+    padding: 20px;
     border-radius: 50%;
     background-color: #e85c79;
 }
@@ -33,28 +37,32 @@ body{
     text-align: center;
     margin-top: 50px;
     font-family: 'Pacifico', cursive;
+    color: #553c21;
+    font-size: 50px;
+    font-weight: lighter;
 }
 
 .fundoPedido{
     position: relative;
-    width: 400px;
-    height: 600px;
+    width: 500px;
+    height: 770px;
     justify-self: center;
     background-color: white;
     font-family: 'Baloo 2', sans-serif;
     padding: 10px;
-    font-size: 25px;
+    font-size: 35px;
     border: 3px solid;
     border-color:rgb(131, 130, 130);
     border-radius: 18px;
-    
+    font-weight: 550;
+    padding-left: 30px;
 }
 
 #valorTotal{
     text-align: end;
     position: absolute;
     bottom: 0px;
-    right: 15px;
+    right: 30px;
     font-weight: bold;
 }
 
@@ -64,11 +72,12 @@ body{
 
 .concluirPedido {
     text-decoration: none;
-    margin: 40px;
+    margin: 90px;
     padding: 15px;
     background-color: orange;
     font-size: 30px;
     border-radius: 8px;
     color: #281704;
     font-family: 'Baloo 2', sans-serif;
+    font-weight: bold;
 }

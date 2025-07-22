@@ -1,9 +1,13 @@
 body {
     margin: 0px;
-    padding: 0px;
+    padding: 00px;
     gap: 0px;
+    height: 100vh;
     background-color: #fff4f6 ;
-    font-family: 'sweet_vusstain';
+    background-image: url(/assets/img/moldura.svg);
+    background-size: 2350px;         
+    background-position: center;    
+    background-repeat: no-repeat;
 }
 
 .bloco_principal {
@@ -12,17 +16,18 @@ body {
 
 img {
     margin: 0px;
-    padding-top: 30%;
+    padding-top: 150px;
     height: 300px;
     width: auto;
 }
 
 h1 {
     margin: 0px;
-    padding-top: 3%;
-    font-size: 60px;
-    color: #281704;
+    padding-top: 60px;
+    font-size: 90px;
+    color: #553c21;
     font-family: 'Pacifico', cursive;
+    font-weight: lighter;
 }
 
 a {
@@ -34,7 +39,7 @@ a {
     font-weight: bold;
     color: #281704;
     padding: 22px;
-    background-color: #f797a5 ;
+    background-color: orange ;
     border-radius: 8px;
     font-family: 'Baloo 2', sans-serif;
 }

@@ -5,4 +5,4 @@ utils/__pycache__
 utils/pedidos/*.json
 
 # arquivo de estoque
-utils/estoque.json
+utils/estoque.json 

@@ -33,7 +33,7 @@ def listarPedidos():
 
 def printarPedido(pedido):
     sabores = pedido['bombom']
-    print(f"\nPedido#{int(pedido['id']):03d}\n   Nome: {pedido['nomeCliente']}\n   Pedido:")
+    print(f"\nPedido#{int(pedido['id']):03d}\n   Nome: {pedido['nomeCliente']}\n   Pedido: ")
     for sabor in sabores:
         if sabores[sabor] == 0:
             pass

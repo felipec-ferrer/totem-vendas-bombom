@@ -21,7 +21,7 @@ while parar != "p":
         entrada = input("Insira uma entrada válida: ").lower().strip()
 
     if (entrada == "1"):
-        functions.aprovarPagamento(False) # funcional
+        functions.aprovarPagamento(False) # funcional 
     elif (entrada == "2"):
         functions.verPendentes(True) # funcional
     elif (entrada == "3"):

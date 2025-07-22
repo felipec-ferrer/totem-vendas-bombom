@@ -12,7 +12,7 @@ def verEstoque():
     for key in estoque:
         quantidade = estoque[key]
         print(f"{key}: {quantidade}")
-    input("\nPressione enter para continuar")
+    input("\nPressione enter para continuar ")
 
 
 def gerenciarBombom(entrada, modo):

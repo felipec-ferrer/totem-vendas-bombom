@@ -8,7 +8,7 @@ caminhoEstoque = "./estoque.json"
 app = Flask(__name__)
 CORS(app)
 
-@app.route('/realizarPedidos', methods=['POST'])
+@app.route('/realizarPedidos', methods=['POST']) # recebe o pedido do Front-End
 def receberPedido():
     try:
         dadosPedido = request.json
@@ -20,7 +20,7 @@ def receberPedido():
         print("Erro ao processar pedido:", e)
         return jsonify({"error": str(e)}), 500
 
-@app.route('/carregarEstoque', methods=['GET'])
+@app.route('/carregarEstoque', methods=['GET']) # envia o estoque ao Front-End
 def carregarEstoque():
     try:
         if os.path.exists(caminhoEstoque):

@@ -1,4 +1,4 @@
 @echo off
-cd D:\Programas\Fullstack\software bombom\utils
+cd .\utils
 python main.py
 exit 

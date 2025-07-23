@@ -14,7 +14,7 @@ parar = ''
 
 while parar != "p":
     os.system('cls')
-    entrada = input("\nAVISO: NÃO FECHE O TERMINAL PELO BOTAO X\n\nOlá! Seja bem vindo ao gerenciador de bombons do Mercury\n\n\nO que você deseja fazer? (Insira o número correspondente e aperte enter):\n[1] - Aprovar pagamento\n[2] - Ver pagamentos pendentes\n[3] - Verificar estoque de bombons\n[4] - Ver todos os pedidos\n[A] - Abrir Totem de pedidos\n[P] - Sair\n[Deletar] - Apagar pedidos\n\n").lower().strip()
+    entrada = input("\nAVISO: NÃO FECHE O TERMINAL PELO BOTAO X\n\nOlá! Seja bem vindo ao gerenciador de bombons ChocoBom\n\n\nO que você deseja fazer? (Insira o número correspondente e aperte enter):\n[1] - Aprovar pagamento\n[2] - Ver pagamentos pendentes\n[3] - Verificar estoque de bombons\n[4] - Ver todos os pedidos\n[A] - Abrir Totem de pedidos\n[P] - Sair\n[Deletar] - Apagar pedidos\n\n").lower().strip()
 
     os.system('cls')  
     while entrada != "1" and entrada != "2" and entrada != "3" and entrada != "4" and entrada != "a" and entrada != "p" and entrada != "deletar":
